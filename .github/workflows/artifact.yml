@@ -30,4 +30,4 @@ jobs:
         path: ./artifacts
 
     - name: Display content of file
-      run: ls -ltr    
+      run: cat ./artifacts/hello.txt
