@@ -26,5 +26,8 @@ jobs:
     - name: Downloading Artifacts
       uses: actions/download-artifact@v4  
       with: 
-        name: hello.txt
+        name: hello-artifacts
         path: ./artifacts
+
+    - name: Display content of file
+      run: ls -ltr    
